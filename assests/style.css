@@ -6,7 +6,7 @@ body {
     color: #777777;
     padding: 0px;
     margin: 0px;
-    background-image: url("../images/background.png");
+    background-image: url("images/background.png");
     background-repeat: repeat;
     font-size: 18px;
     line-height: 34px;
@@ -14,7 +14,7 @@ body {
     min-width: 960px;
     width: 100%;
     height: 100%;
-    padding-bottom: 100px;
+    
 }
 
 /* #wrapper {
@@ -33,15 +33,15 @@ body {
     /* float: left; */
     margin-right: 200px;
     margin-left: 200px;
-    margin-top: 10px;
-   margin-bottom: -50px;
-    top: 30px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    
 }
 
-.container-inside {
+/* .container-inside {
     padding: 20px;
     padding-bottom: 50px;
-}
+} */
 /* header and navigation bar */
 header {
     background: #ffffff;
@@ -70,7 +70,11 @@ header {
     font-weight: 700px;
     width: 250px;
     height: 90px;
-    /* float: left;  */
+    float: left; 
+}
+
+#name {
+    margin-right: 600px;
 }
 
 nav {
@@ -193,13 +197,12 @@ input[type=submit] {
 } */
 /* footer styling */
 .footer-copyright {
-    clear: both;
+
     height: 50px;
-    margin-top: -50px;
-    position: fixed;
+    position: relative;
     right: 0;
     left: 0;
-    bottom: 0;
+    
     width: 100%;
     padding: 1rem;
     background-color: #666666;
