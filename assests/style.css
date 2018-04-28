@@ -13,13 +13,9 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     min-width: 960px;
     width: 100%;
-    height: 100%;
-    
+    height: 100%;   
 }
 
-/* #wrapper {
-    height: 100%;
-} */
 
 .container {
     width: 100%;
@@ -34,14 +30,9 @@ body {
     margin-right: 200px;
     margin-left: 200px;
     margin-top: 40px;
-    margin-bottom: 50px;
-    
+    margin-bottom: 50px; 
 }
 
-/* .container-inside {
-    padding: 20px;
-    padding-bottom: 50px;
-} */
 /* header and navigation bar */
 header {
     background: #ffffff;
@@ -54,7 +45,6 @@ header {
     /* position: fixed; */
     top: 0px;
     width: 100%;
-
 }
 
  .navbar-brand {
@@ -64,7 +54,7 @@ header {
     color: #ffffff;
     padding: 20px;
     margin-top: 0%;
-    text-align: left;
+    text-align: center;
     line-height: 90px;
     font-size: 30px;
     font-weight: 700px;
@@ -77,24 +67,24 @@ header {
     margin-right: 600px;
 }
 
-nav {
+.nav-link {
     background: #ffffff;
     float: right;
     margin-top: 25px;
     
 }
 
-nav a {
+.nav-link {
     text-decoration: none;
     color: #999999;
     border-left: 1px solid #efefef;
 }
 
-nav a:first-child {
+.nav-link:first-child {
     border-left: 0 none;
 }
 /* main text content styling */
-/* #content {
+#content {
     clear: both;
     background-color: #ffffff;
     border: 1px solid #dddddd;
@@ -106,7 +96,7 @@ nav a:first-child {
     width: 100%;
     max-width: 960px;
     top: 30px;
-} */
+}
 
 
 h1 {
@@ -149,52 +139,8 @@ h2 {
     margin-bottom: 0;
     font-weight: 300px;
 }
-/* contact page styling */
-/* #form ul {
-    clear: both;
-    margin-bottom: 20px;
-} */
-/* 
-#form li {
-    margin-bottom: 10px;
-}
 
-input[type=text] {
-    border: 1px solid #dddddd;
-    padding: 0 10px;
-    font-size: 14px;
-    display: block;
-    width: 100%;
-    height: 35px;
-}
 
-input[type=email] {
-    border: 1px solid #dddddd;
-    padding: 0 10px;
-    font-size: 14px;
-    display: block;
-    width: 100%;
-    height: 35px;
-}
-
-textarea {
-    height:200px;
-    border: 1px solid #dddddd;
-    padding: 0 10px;
-    font-size: 14px;
-    display: block;
-    width: 100%;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-input[type=submit] {
-    background: #4aaaa5;
-    border: 0 none;
-    color: #ffffff;
-    font-size: 18px;
-    padding: 10px;
-
-} */
 /* footer styling */
 .footer-copyright {
 
